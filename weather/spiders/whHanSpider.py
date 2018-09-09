@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 import scrapy
-import weather.items import WeatherItem
+from weather.items import WeatherItem
 
 class WhhanspiderSpider(scrapy.Spider):
     name = "whHanSpider"
